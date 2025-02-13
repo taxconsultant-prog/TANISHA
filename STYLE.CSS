@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: gold;
+    color: black;
+    position: relative;
+}
+
+header img {
+    width: 130px;
+    height: 150px;
+    border-radius: 00%;
+    position:absolute
+;   left: 10px;
+}
+
+header h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+.services, .contact-form, .appointment-form {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gold;
+    border-radius: 5px;
+    background: black;
+    color: gold;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background: gold;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    HEIGHT: 3%;
+    text-align: center;
+    
+}
